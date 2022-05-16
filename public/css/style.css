@@ -1,0 +1,161 @@
+/* Nav */
+
+nav{
+    position:fixed;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    margin-left:1%;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background: url('/images/hero-bg-blurred.jpg') no-repeat center/cover;
+    height:100vh;
+    width:100%;
+    text-align: center;
+    color:white; 
+}
+
+.hero-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-header{
+    margin-bottom:5%;
+}
+
+.hero-paragraph{
+    width:60%;
+    margin:auto;
+    margin-bottom: 5%;
+}
+
+.btn-header{
+    padding:.75% 15%;
+}
+
+/* Features */
+
+.features-header{
+    text-align: center;
+    margin:3%;
+}
+
+.row.features-row{
+    margin: 4em 0;
+    margin-right: 0px;
+}
+
+.col-lg-4{
+    text-align: center;
+    margin-top:3em;
+}
+
+.fa-7x{
+    margin-bottom:16px;
+    color: #F0A500;
+}
+
+.features-desc{
+    width:50%;
+    margin:0 auto;
+}
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color:#F0A500;
+    color:white;
+}
+
+.carousel-item{
+    padding:7% 15% 3% 15%;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin: 20px;
+}
+
+/* Pricing */
+
+.pricing-row{
+    margin: auto 0 auto;
+}
+
+#pricing{
+    padding:70px;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+.pricing-header{
+    text-align: center;
+}
+
+.pricing-text{
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-btn{
+    width:60%;
+    margin:auto;
+}
+/* Footer */
+
+#footer{
+    padding:3% 15% 1%;
+    text-align:center;
+}
+
+.footer-icons{
+    margin:0 1% 0;
+    color:#F0A500;
+}
+
+@media screen and (max-width: 780px) {
+    .hero-header{
+        margin-bottom:15%;
+    }
+    
+    .hero-paragraph{
+        width:60%;
+        margin:auto;
+        margin-bottom: 15%;
+    }
+    
+    .btn-header{
+        padding:1% 25%;
+    }
+
+    .features-row{
+        margin: 0em 0em 4em 0;
+    }
+
+    .col-lg-4{
+        text-align: center;
+        margin-top:3em;
+        margin-bottom:3em;
+    }
+
+    .features-header{
+        margin:10%;
+    }
+} 
